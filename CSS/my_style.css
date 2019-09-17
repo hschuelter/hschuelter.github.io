@@ -1,38 +1,47 @@
-body,html{
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #1a1a1a;
+}
+
+nav {
+    color: #39ca74;
+    background-color: #1a1a1a;
+}
+
+nav h1 {
+    /* position: absolute; */
+    padding: 3px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+    font-family: 'Verdana';
+    color: #39ca74;
+}
+
+nav ul {
+    width: auto;
+    float: right;
+    margin-top: 8px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+body {
     margin: 0;
-    padding: 0;
+    padding: 0px;
+    text-align: center;
 
     font-family: 'Verdana';
     color: #ffffff;
     background-color: #282828;
 }
 
-header{
-    width: 100%;
-    height: 70px;
-    background-color: #1a1a1a;
-}
 
-/* === Navigation Bar === */
-nav{
-    color: #39ca74;
-    background-color: #1a1a1a;
-}
-
-nav ul{
-    width: auto;
-    float: right;
-    margin-top: 8px;
-}
-
-nav li{
-    display: inline-block;
-    padding: 15px 30px;
-}
-/* ====================== */
-
-
-footer{
+footer {
     position: absolute;
     bottom:0;
     width: 100%;
@@ -41,51 +50,60 @@ footer{
 	font-family: 'Verdana';
 }
 
-h1 {
-    /* position: absolute; */
-    padding: 3px;
-    float: left;
-    margin-left: 2%;
-    margin-top: 10px;
-    font-family: 'Verdana';
-    color: #39ca74;
-}
+/* ============================================= */
 
-h2{
+h1, h2 {
     /* position: absolute; */
-    padding: 3px;
-    float: left;
+    /* padding: 3px; */
+    text-align: center;
     margin-left: 2%;
     margin-top: 10px;
-    font-family: 'Verdana';
+    font-family: 'Helvetica';
     color: #ffffff;
 }
 
-.center{
+table {
+    text-align: center;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+
+    background-color: #1a1a1a;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+}
+
+/* .center {
 	margin: auto;
 	width: 50%;
-}
+} */
 
-span{
+span {
     color: #ffffff;
 }
 
-/* ul{
+ul {
     width: auto;
-    float: center;
+    float: left;
     margin-top: 8px;
 }
 
-li{
+li {
     display: inline-block;
     padding: 15px 30px;
-} */
+}
 
-form{
+form {
     font-family: 'Verdana', sans-serif;
 }
 
-a{
+a {
     text-align: center;
     color: #ffffff;
     text-decoration: none;
@@ -93,11 +111,74 @@ a{
     font-size: 1.2vw;
 }
 
-a:hover{
+a:hover {
     color: #f0c330;
     transition: 0.5s;
 }
 
-img{
+img {
     margin-top: -16px;
+}
+
+/* ===== Timeline ===== */
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: 0px;
+}
+
+/* Container around content */
+.container {
+    padding: 10px 10px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 0px;
+    background-color: white;
+    border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+    left: 0;
+}
+
+/* Place the container to the right */
+.right {
+    left: 50%;
+}
+
+.content {
+    padding: 20px 30px;
+    color: #000000;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+}
+
+.content h2{
+    color: #000000;
 }
