@@ -150,6 +150,22 @@ a {
     font-size: 1.2vw;
 }
 
+body h3 {
+    padding: 3px;
+}
+
+body h4{
+    margin: 0% 800px;
+    padding: 25px 0px;
+    width: 300px;
+    
+    color: #00ff00;
+    background-color: #0000ff;
+    text-shadow: 2px 2px #ff0000;
+    border-radius: 25px;
+
+}
+
 a:hover {
     color: #f0c330;
     transition: 0.5s;
