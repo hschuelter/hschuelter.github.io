@@ -64,7 +64,7 @@ nav a {
 
 nav a:hover {
     color: #ffffff;
-    transition: 0.5s;
+    /* transition: 0.5s; */
 }
 
 body {
@@ -132,23 +132,6 @@ h1, h2 {
     color: #000000;
 }
 
-table {
-    text-align: center;
-    width: 95%;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 25px;
-
-    background-color: #1a1a1a;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-}
-
-td {
-    text-align: center;
-    color: #ffffff;
-    padding: 10px;
-    width: 50%;
-}
 
 /* .center {
 	margin: auto;
@@ -184,13 +167,35 @@ a {
 
 a:hover {
     color: #f0c330;
-    transition: 0.5s;
+    /* transition: 0.5s; */
 }
 
 img {
     margin-top: -16px;
 }
 
+/* ===== Projects ===== */
+.project {
+    text-align: center;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+
+    background-color: #1a1a1a;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.project h1 {
+    color: #ffffff;
+}
+
+td {
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    width: 50%;
+}
 /* ===== Timeline ===== */
 
 .timeline {
