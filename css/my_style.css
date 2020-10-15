@@ -1,9 +1,3 @@
-header {
-    /* width: 100%; */
-    /* height: 60px; */
-    /* background-color: #1a1a1a; */
-}
-
 .nav-bar {
     display: flex;
     width: 100%;
@@ -20,8 +14,19 @@ header {
     font-size: 16px;
     padding: 5px 10px;
     margin-right: 10px;
+    border-radius: 5px;
 
-    /* background-color: tomato; */
+    background-color: tomato;
+}
+
+.nav-bar b {
+    color: black;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+
+    background-color: aquamarine;
 }
 
 .nav-bar a:hover {
@@ -53,7 +58,6 @@ header {
 
 a {
     text-decoration: none;
-    /* font-family: 'Verdana', sans-serif; */
     font-family: 'Roboto';
     font-weight: bold;
 }
@@ -109,10 +113,10 @@ body h4{
 .main-info {
     margin: 15px auto;
     padding: 10px;
-    width: 60%;
+    width: 80%;
     background-color: rgba(255, 255, 255, 0.90);
-    border-radius: 25px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.66)
+    border-radius: 5px;
+    /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.66) */
 
 }
 

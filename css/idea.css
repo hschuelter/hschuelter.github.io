@@ -1,0 +1,159 @@
+.nav-bar {
+    display: flex;
+    width: 100%;
+    margin: 15px 0px 15px;
+
+    min-height: 40px;
+    line-height: 40px;
+
+    font-size: 16px;
+    
+    /* border-bottom: 2px solid hsl(228, 100%, 97%); */
+    color: black;
+    background-color: #ffffff;
+    /* background-color: tomato; */
+}
+
+.nav-bar a {
+    color: black;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+
+    background-color: tomato;
+}
+
+.nav-bar b {
+    /* font-size: 16px; */
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+
+    background-color: aquamarine;
+}
+
+.nav-bar a:hover {
+    transition: 0.2s ease-in-out;
+    background-color: #f0f3ff;
+}
+
+.right {
+    margin-left: auto;
+}
+
+.left {
+    margin-right: auto;
+}
+
+.tomato {
+    background-color: tomato;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+/* ============================================= */
+
+
+body {
+    /* font-family: 'Verdana'; */
+    font-family: 'Roboto';
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+
+    color: #000000;
+    /* background-color: #f2f2f2; */
+}
+
+body p {
+    font-size: 12px;
+    padding: 5px;
+}
+
+
+body h3 {
+    padding: 3px;
+}
+
+body h4{
+    margin: 0% auto;
+    padding: 25px 0px ;
+    width: 300px;
+    
+    color: #00ff00;
+    background-color: #0000ff;
+    text-shadow: 2px 2px #ff0000;
+    border-radius: 25px;
+
+}
+
+.main-info {
+    margin: 15px 15px auto;
+    padding: 10px;
+    /* width: 95%; */
+    /* background-color: rgba(255, 255, 255, 0.90); */
+    background-color: #fff8ff;
+
+    /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.66) */
+
+}
+
+.card {
+    display: flex;
+    margin: 0px 15px;
+
+    min-height: 400px;
+    
+    color: black;
+    font-size: 16px;
+    /* background-color: tomato; */
+    /* background-color: tomato; */
+}
+
+.card .left {
+    float: left;
+    width: 30%;
+
+    padding: 5% 0%;
+    background-color: aquamarine;
+    /* background-color: #0f1a1a; */
+
+    position: relative;
+}
+
+.card .left .photo {
+    margin: auto;
+    width: 100%;
+    /* border: 3px solid green; */
+    /* padding: 10px; */
+}
+
+.card .right {
+    float: right;
+    width: 70%;
+    padding: 5%;
+    
+    
+    background-color: tomato;
+    /* background-color: #0f1a1a; */
+    color: white;
+}
+
+.card .right h1, h2 {
+    text-align: left;
+}
+
+.bottom-card {
+    display: flex;
+    margin: 0px 15px;
+
+    min-height: 100px;
+    
+    color: black;
+    font-size: 16px;
+    background-color: blueviolet;
+}
