@@ -1,0 +1,86 @@
+
+.main-info {
+    display: flex;
+    /* border: 1px solid black; */
+
+    font-family: 'Poppins', sans-serif;
+
+    margin: 15px auto;
+    padding: 10px;
+    width: 80%;
+}
+
+.main-info .professional {
+    flex: 6;
+    margin-right: 20px;
+
+    color: black;
+    /* background-color: #CCCCFF; */
+}
+
+.main-info .academic {
+    flex: 6;
+    color: black;
+    /* background-color: #CCCCFF; */
+}
+
+.main-info .title {
+    padding: 20px 0px;
+    
+    background-color: #262626;
+    font-size: 24px;
+    font-weight: bolder;
+
+    color: white;
+
+    border: 1px solid #262626;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.main-info .content {
+    border: 1px solid #262626;
+    border-radius: 0px 0px 16px 16px;
+    padding: 0px;
+}
+
+.main-info .content .course {
+    border-bottom: 1px solid #262626;
+    min-height: 220px;
+    
+    text-align: left;
+    padding-left: 8px;
+    position: relative;
+}
+.main-info .content .course:last-child {
+    border-bottom: 0px solid #262626;
+}
+
+.main-info .content .course .subject {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.main-info .content .course .date {
+    font-size: 12px;
+    font-weight: thin;
+    color: rgb(128, 128, 128);
+}
+
+.main-info .content .course .description {
+    font-size: 16px;
+    font-weight: normal;
+    
+    margin: 16px 0px;
+}
+
+.main-info .content .course .skills {
+    font-size: 14px;
+
+    position: absolute;
+    bottom: 0;
+}
+
+.focus {
+    background-color: #262626;
+    color: white
+}

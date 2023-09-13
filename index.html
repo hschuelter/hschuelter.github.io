@@ -4,52 +4,108 @@
     <head>
         <meta charset="utf-8">
         <title> I am trying to make a decent website. </title>
-        <link rel="shortcut icon" type="image/x-icon" href="./Images/calops.jpg" />
+        <link rel="shortcut icon" href="./img/icons/programming-w.png" />
         <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        
         <link rel="stylesheet" href="css/my_style.css">
+        <link rel="stylesheet" href="css/simple.css">
+        <link rel="stylesheet" href="css/main-info.css">
     </head>
 
     <div class="nav-bar">
-        <div class="right">
-            <a href="index.html"> Home </a>
-            <a href="projects.html"> Projects </a>
+        <div class="right flex">
+            <a href="./index.html" class="box current-page"> Home </a>
+            <a href="./index.html" class="box"> Skills </a>
+            <a href="./projects.html" class="box"> Projects </a>
         </div>
     </div>
 
     <body>
-        <div class="main-info"> 
-            <h1> Welcome to my page! </h1>
-            <hr width="100%" />
-            <p>
-                • Computer Science student @ Santa Catarina State University
-            </p>
-            <p>
-                • Game Developer
-            </p>
-            <h4>
-                • Graphic design is my passion
-            </h4>
+        <div class="main-info">
+            <!---------------------PROFESSIONAL--------------------->
+            <div class="professional">
+                <div class="title">
+                    Experiência Profissional
+                </div>   
+                
+                <div class="content">
+                    
+                    <div class="course">
+                        <div class="subject">Desenvolvedor Front-end Júnior @ Weknow Healthtech</div>
+                        <div class="date">jan de 2021 - jun de 2021</div>
+                        <div class="description">
+                            Trabalhei na migração de uma aplicação desktop de BI para uma aplicação Web utilizando AngularJS e componentes do Material UI. 
+                            Atuei junto a equipe de design UX para garantir a usabilidade e com a equipe de back-end para reproduzir as funcionalidades do produto anterior.
+                        </div>
+                        <div class="skills"><b>Competências:</b> JavaScript • AngularJS • Front-end • User Experience (UX) • Business Inteligence (BI)</div>
+                    </div>
+
+                    <div class="course">
+                        <div class="subject">Desenvolvedor Back-end Júnior @ ProJuris</div>
+                        <div class="date">ago de 2020 - jan de 2021</div>
+                        <div class="description">
+                            Trabalhei na customização e na manutenção do software jurídico, agora como desenvolvedor júnior. 
+                            Minha equipe ficou responsável pela manutenção do produto para o BNDES e customização do produto para a COPEL.
+                            Auxiliei a equipe de tecnologia na construção de microsserviços.
+                        </div>
+                        <div class="skills"><b>Competências:</b> Java • Back-end • Engenharia de Software • MySQL • Git • Linux</div>
+                    </div>
+                    
+                    <div class="course">
+                        <div class="subject">Estagiário @ ProJuris</div>
+                        <div class="date">ago de 2019 - ago de 2020</div>
+                        <div class="description">
+                            Customização e manutenção de um software jurídico, para escritórios de advocacia e advogados. 
+                            Minha equipe ficou responsável pela customização do produto em contrato governamental. 
+                        </div>
+                        <div class="skills"><b>Competências:</b> Java • Back-end • Engenharia de Software • MySQL • Git • Linux</div>
+                    </div>
+                </div>
+
+            </div>
+            
+            <!---------------------ACADEMIC--------------------->
+            <div class="academic">
+                <div class="title">
+                    Formação Acadêmica
+                </div>
+                <div class="content">
+                    <div class="course">
+                        <div class="subject">Medicina @ PUCPR</div>
+                        <div class="date">mar de 2022 - jul de 2023</div>
+                        <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh arcu, feugiat eget interdum nec, elementum sed nulla. Pellentesque eget massa imperdiet, cursus est et, scelerisque nisl. </div>
+                        <div class="skills"><b>Competências:</b> Basic Algorithms • Calculus • Logic Reasoning</div>
+                    </div>
+
+                    <div class="course focus">
+                        <div class="subject">Ciência da Computação @ UDESC</div>
+                        <div class="date">fev de 2016 - out de 2020</div>
+                        <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh arcu, feugiat eget interdum nec, elementum sed nulla. Pellentesque eget massa imperdiet, cursus est et, scelerisque nisl. </div>
+                        <div class="skills"><b>Competências:</b> Basic Algorithms • Calculus • Logic Reasoning</div>
+                    </div>
+                    
+                    <div class="course">
+                        <div class="subject">Engenharia Mecânica @ UDESC</div>
+                        <div class="date">fev de 2015 - fev de 2016</div>
+                        <div class="description">
+                            Foi minha primeira experiência com o ambiente universitário, eu estava, contudo, na área errada.
+                            Foi importante pois tive contato com disciplicas do <b>Departamento de Computação</b>, pelo qual adquiri interesse.
+                        </div>
+                        <div class="skills"><b>Competências:</b> Programação básica • Cálculo • Raciocínio lógico</div>
+                    </div>
+                </div>
+            </div>
             <br>
         </div>
-
-        <div class="main-info">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh arcu, feugiat eget interdum nec, elementum sed nulla. Pellentesque eget massa imperdiet, cursus est et, scelerisque nisl. Vestibulum nec lacus varius, consequat eros ultricies, consequat massa. Fusce magna sapien, imperdiet id consequat sit amet, finibus eu ante. Proin egestas et libero vitae tempor. Maecenas semper sem sit amet feugiat ultricies. Curabitur ut massa vitae lectus mollis pretium. In maximus nec eros sit amet pellentesque. Ut dui nisl, pharetra eu ex lacinia, iaculis placerat augue.
-        </div>
-        <div class="main-info">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh arcu, feugiat eget interdum nec, elementum sed nulla. Pellentesque eget massa imperdiet, cursus est et, scelerisque nisl. Vestibulum nec lacus varius, consequat eros ultricies, consequat massa. Fusce magna sapien, imperdiet id consequat sit amet, finibus eu ante. Proin egestas et libero vitae tempor. Maecenas semper sem sit amet feugiat ultricies. Curabitur ut massa vitae lectus mollis pretium. In maximus nec eros sit amet pellentesque. Ut dui nisl, pharetra eu ex lacinia, iaculis placerat augue.
-        </div>
-        <div class="main-info">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh arcu, feugiat eget interdum nec, elementum sed nulla. Pellentesque eget massa imperdiet, cursus est et, scelerisque nisl. Vestibulum nec lacus varius, consequat eros ultricies, consequat massa. Fusce magna sapien, imperdiet id consequat sit amet, finibus eu ante. Proin egestas et libero vitae tempor. Maecenas semper sem sit amet feugiat ultricies. Curabitur ut massa vitae lectus mollis pretium. In maximus nec eros sit amet pellentesque. Ut dui nisl, pharetra eu ex lacinia, iaculis placerat augue.
-        </div>
-        <div class="main-info">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh arcu, feugiat eget interdum nec, elementum sed nulla. Pellentesque eget massa imperdiet, cursus est et, scelerisque nisl. Vestibulum nec lacus varius, consequat eros ultricies, consequat massa. Fusce magna sapien, imperdiet id consequat sit amet, finibus eu ante. Proin egestas et libero vitae tempor. Maecenas semper sem sit amet feugiat ultricies. Curabitur ut massa vitae lectus mollis pretium. In maximus nec eros sit amet pellentesque. Ut dui nisl, pharetra eu ex lacinia, iaculis placerat augue.
-        </div>
-
-
     </body>
 
     <footer>
-        <p> There is not much here right now. </p>
+        <div class="box">
+            <a href="https://github.com/hschuelter/"> <img src="./img/icons/social/github-black.png" class="contact-logo"> </a>
+            <a href="https://www.linkedin.com/in/arthur-schuelter/"> <img src="./img/icons/social/lin-black.png" class="contact-logo"> </a>
+        </div>
     </footer>
 
 </html>
